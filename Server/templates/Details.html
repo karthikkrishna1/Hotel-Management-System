@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Customer Details{% endblock %}
+{% block content %}
+<h2>Confirm the Details</h2>
+<h2>Name : {{Name}}</h2>
+<h2>Room : {{room}}</h2>
+<h2>RoomType : {{roomtype}}</h2>
+<h2>Check-in Time : {{check_in_time}}</h2>
+<h2>Check-out Time : {{check_out_time}}</h2>
+<h2>Amount : {{amount}}</h2>
+<a href="/checkedout">Proceed</a>
+{% endblock %}
